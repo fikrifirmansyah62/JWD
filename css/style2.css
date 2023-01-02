@@ -1,0 +1,134 @@
+* {
+  text-decoration: none;
+}
+
+h1 {
+  padding-top: 4.5rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+body {
+  background: -webkit-linear-gradient(bottom, #3498db, #9b59b6);
+  background-repeat: no-repeat;
+}
+
+table {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+a {
+  font-weight: bold;
+  color: rgb(30, 230, 57);
+  transition: 0.2s;
+}
+
+#home h1 {
+  box-shadow: 12px 12px 15px;
+  background: -webkit-linear-gradient(bottom, #3498db, #9b59b6);
+  border-radius: 10px;
+  text-align: center;
+}
+
+#buku h1 {
+  box-shadow: 12px 12px 15px;
+  background: -webkit-linear-gradient(bottom, #3498db, #9b59b6);
+  border-radius: 10px;
+  text-align: center;
+}
+
+#tambah h1 {
+  box-shadow: 12px 12px 15px;
+  background: -webkit-linear-gradient(bottom, #3498db, #9b59b6);
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#update h1 {
+  box-shadow: 12px 12px 15px;
+  background: -webkit-linear-gradient(bottom, #3498db, #9b59b6);
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+label {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-style: oblique;
+}
+
+#card {
+  background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 430px;
+  margin: 6rem auto 8.1rem auto;
+  width: 400px;
+}
+#card-regis {
+  background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 480px;
+  margin: 6rem auto 8.1rem auto;
+  width: 400px;
+}
+
+#card-content {
+  padding: 12px 44px;
+}
+
+#card-title {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 4px;
+  padding-bottom: 23px;
+  padding-top: 13px;
+  text-align: center;
+}
+
+#submit-btn {
+  background: -webkit-linear-gradient(bottom, #3498db, #9b59b6);
+  border-radius: 21px;
+  border: none;
+  box-shadow: 2px 7px 10px #9b59b6;
+  cursor: pointer;
+  color: white;
+  font-family: 'Raleway SemiBold', sans-serif;
+  height: 42.3px;
+  margin: 0 auto;
+  margin-top: 50px;
+  transition: 0.2s;
+  width: 153px;
+}
+
+#submit-btn:hover {
+  box-shadow: 0px 1px 18px #ffffff;
+}
+
+.form {
+  align-items: 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-border {
+  height: 1px;
+  width: 100%;
+  background: -webkit-linear-gradient(right, #3498db, #9b59b6);
+}
+
+.form-content {
+  background: #fbfbfb;
+  border: none;
+  outline: none;
+  padding-top: 14px;
+}
+
+.underline-title {
+  background: -webkit-linear-gradient(right, #3498db, #9b59b6);
+  height: 3px;
+  margin: -1.1rem auto 0 auto;
+  width: 89px;
+}
